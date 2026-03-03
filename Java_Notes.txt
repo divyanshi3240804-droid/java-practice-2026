@@ -1,0 +1,105 @@
+✅ Day 1 – Basics & Variables
+🔹 Java Structure (Very Important)
+Every Java program follows this structure:
+Java
+Copy code
+public class Main {
+
+    public static void main(String[] args) {
+
+        // code goes here
+
+    }
+}
+Rules:
+File name must match class name (Main.java → class Main)
+Everything must be inside main()
+Java is case-sensitive
+🔹 Variables (Boxes to store data)
+1️⃣ int → Whole numbers
+Java
+Copy code
+int age = 20;
+2️⃣ double → Decimal numbers
+Java
+Copy code
+double height = 5.2;
+3️⃣ String → Text (Needs double quotes "")
+Java
+Copy code
+String name = "Divyanshi";
+4️⃣ boolean → true / false
+Java
+Copy code
+boolean isStudent = true;
+🔹 Printing Output
+Java
+Copy code
+System.out.println("Hello");
+Double quotes → text
+No quotes → variable
+Semicolon ; is compulsory
+Example:
+Java
+Copy code
+System.out.println(name);
+System.out.println("Marks");
+🔹 Operators
++ can:
+Add numbers
+Join text
+Example:
+Java
+Copy code
+int a = 5;
+int b = 10;
+System.out.println(a + b); // 15
+
+
+
+
+
+
+
+
+
+✅ Day 2 – if / else (Decision Making)
+🔹 Basic Structure
+Java
+Copy code
+if (condition) {
+    // runs if true
+} else {
+    // runs if false
+}
+🔹 Example
+Java
+Copy code
+int marks = 75;
+
+if (marks > 40) {
+    System.out.println("Pass");
+} else {
+    System.out.println("Fail");
+}
+🔹 Important Symbols
+>  greater than
+<  less than
+>= greater than or equal
+<= less than or equal
+== equal to
+!= not equal
+🔹 else if (Multiple Conditions)
+Java
+Copy code
+if (marks >= 90) {
+    System.out.println("Excellent");
+} else if (marks >= 40) {
+    System.out.println("Pass");
+} else {
+    System.out.println("Fail");
+}
+Important:
+Order matters
+Java checks from top to bottom
+First true condition runs
