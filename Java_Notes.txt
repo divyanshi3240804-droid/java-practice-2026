@@ -103,3 +103,31 @@ Important:
 Order matters
 Java checks from top to bottom
 First true condition runs
+
+
+
+
+
+
+✅ Day 3 Scanner (user input)
+
+~ import java.util.Scanner; //for input 
+~ Scanner sc =new Scanner (System.in);//created scanner object , sc is machine that listens keyboard
+~ sc.nextInt(); // this read interger typed by user
+~ iput type in terminal only not in output
+~ sc.close // always close scanner
+
+
+EXAMPLE 
+     
+
+    import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+      Scanner sc = new Scanner(System.in);
+      
+      int num = sc.nextInt();
+       sc.close();
+   }
+}
