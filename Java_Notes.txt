@@ -131,3 +131,60 @@ public class Main {
        sc.close();
    }
 }
+
+
+======================
+Day 4 – Loops
+======================
+
+1️⃣ What is a Loop?
+- Repeat code automatically
+- Avoid writing same code multiple times
+
+2️⃣ Types of Loops
+- For Loop: fixed number of repetitions
+- While Loop: repeat while condition true
+- Do-While Loop: runs at least once
+
+3️⃣ Syntax Examples
+
+For Loop:
+for(int i=1; i<=5; i++) {
+    System.out.println(i);
+}
+
+While Loop:
+int i = 1;
+while(i <= 5) {
+    System.out.println(i);
+    i++;
+}
+
+Do-While Loop:
+int i = 1;
+do {
+    System.out.println(i);
+    i++;
+} while(i <= 5);
+
+4️⃣ Example – Sum of Numbers (Interactive)
+Scanner sc = new Scanner(System.in);
+int n = sc.nextInt();
+int sum = 0;
+for(int i=1; i<=n; i++) {
+    int num = sc.nextInt();
+    sum += num;
+}
+System.out.println("Sum: " + sum);
+
+5️⃣ Key Points
+- Loops save time & code
+- i++ → increment counter
+- sum += num → running total
+- For known repetitions → for
+- For condition → while
+- Run at least once → do-while
+
+✅ Tip:
+- Keep this short and readable
+- Add small flow diagram for loops later
